@@ -44,8 +44,8 @@ void main ()
 }
         else
         {
-            LATAbits.LA4 = 0;
-            LATAbits.LA5 = 0;
+            LATAbits.LATA4 = 0;
+            LATAbits.LATA5 = 0;
 
             for (i=7;i>=0;i--)
             {
