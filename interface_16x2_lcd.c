@@ -33,7 +33,7 @@ void sendData(unsigned char data)
 void InitLCD()
 {
     ADCON1 = 0x0F;
-    TRISA = 0x00;
+    TRISB = 0x00;
     TRISAbits.TRISA0=0;
     TRISAbits.TRISA1=0;
 
